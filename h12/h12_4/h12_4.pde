@@ -25,7 +25,7 @@ void draw(){
   }
   
   fill(0,0,0);
-  text("Spacebar Hits" + aantalSpaties, 200,200);
+  text("Spacebar Hits " + aantalSpaties, 200,200);
   text("Seconds left " + leftAmount + "." + nf(millisLeft, 3), 200,220);
 }
 
